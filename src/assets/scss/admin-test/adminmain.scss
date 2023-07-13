@@ -1,0 +1,36 @@
+.el-header{
+  --el-header-padding: 0 !important;
+}
+
+.el-header-right {
+  padding-right: 20px;
+  margin-top: 2px;
+  float: right;
+}
+
+.el-header-right .el-dropdown-Alink{
+  cursor: pointer;
+  color: var(--el-color-primary);
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.el-header-right .el-dropdown-Alink:focus {
+  outline: none;
+}
+
+.el-header-left{
+  line-height: 10px;
+  float: left;
+  background-color: #409EFF;
+  text-align: center;
+}
+
+.el-header-left a{
+  font-size: 20px;
+}
+
+.el-header-center{
+  float: left;
+}

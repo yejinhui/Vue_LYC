@@ -1,0 +1,23 @@
+.el-pagination {
+  justify-content: center;
+}
+
+.input-item{
+  float: left;
+  width: 65%;
+}
+
+.button-item{
+  float: right;
+  width: 35%;
+}
+
+.button-item button {
+  margin-bottom: 1.5vh;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#show-hidden{
+  display: none;
+}

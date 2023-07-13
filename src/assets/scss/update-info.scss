@@ -1,0 +1,53 @@
+.demo-datetime-picker {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.demo-datetime-picker .block {
+  padding: 30px 0;
+  text-align: center;
+  border-right: solid 1px var(--el-border-color);
+  flex: 1;
+}
+.demo-datetime-picker .block:last-child {
+  border-right: none;
+}
+.demo-datetime-picker .demonstration {
+  display: block;
+  color: var(--el-text-color-secondary);
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+//头像上传
+.avatar-uploader {
+  margin-left: 25%;
+  text-align: center;
+  //padding-bottom: 4%;
+  width: 52px;
+  height: 52px;
+  border-radius:50%;
+  border: 1px solid rgba(0, 0, 0, 0.27);
+}
+
+.avatar-uploader:hover{
+  //cursor: url(https://dl.zhutix.net/2023/04/83669.png),default;
+}
+
+.avatar-uploader .el-upload {
+   cursor: pointer;
+   position: relative;
+   overflow: hidden;
+   transition: var(--el-transition-duration-fast);
+ }
+
+.avatar-uploader .el-upload:hover {
+  border-color: var(--el-color-primary);
+}
+
+.el-icon.avatar-uploader-icon {
+  font-size: 12px;
+  color: #8c939d;
+  text-align: center;
+}

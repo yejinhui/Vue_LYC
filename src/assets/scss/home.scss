@@ -1,0 +1,59 @@
+.el-img-home {
+  width: 100%;
+  height: 100%;
+}
+
+.div-home{
+  margin: 0;
+  padding-top: 20px;
+}
+
+.el-card-home{
+  width:calc( 20% - 15px ); // 间距为40px
+  display:flex;
+  justify-content: space-between;  //  使两端对齐
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 30px;
+  //width: 23.5%;
+}
+
+.el-card-home .bottom {
+  margin-top: 13px;
+  line-height: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.el-card-home .button {
+  padding: 0;
+  min-height: auto;
+}
+
+//去除最后一个盒子与外盒子的间距，4代表一行之中第四个盒子
+.el-card-home:nth-child(5n) {
+  margin-right: 0;
+}
+
+.el-card-home .image{
+  width: 100%;
+  height: 200px;
+  display: block;
+}
+
+//将超出的文本显示为省略号
+.tmp{
+  white-space:nowrap;/*强制单行显示*/
+  text-overflow:ellipsis;/*超出部分省略号表示*/
+  overflow:hidden;/*超出部分隐藏*/
+  width:260px;/*设置显示的最大宽度*/
+  display:inline-block;
+}
+
+.time {
+  font-size: 0.7rem;
+  color: #999;
+}
+
+
